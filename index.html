@@ -1,52 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-        </style>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body class="bg-slate-800">
-    <nav class="w-full fixed left-0 top-0 text-green-100 mt-2 flex p-1 justify-center items-center rounded-xl">
-        <ul class="flex bg-gray-400 gap-8 rounded-full px-6 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.1px] border-periwinkle-400 p-3">
-            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">Home</li>
-            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">Projects</li>
-            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">About me</li>
-        </ul>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-slate-800 w-screen overflow-x-hidden select-none">
+    
+    <nav
+      class="w-full fixed left-0 top-0 text-green-100 mt-2 flex p-1 justify-center items-center rounded-xl z-50"
+    >
+      <ul
+        class="flex bg-gray-400 gap-8 rounded-full px-6 items-center bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.1px] border-periwinkle-400 p-3 z-50" id="navul"
+      >
+        <li
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          id="homeNav"
+        >
+          Home
+        </li>
+        <li
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          id="projectNav"
+        >
+          Projects
+        </li>
+        <li
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          id="experienceNav"
+        >
+          Experience
+        </li>
+        <li
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          id="aboutNav"
+        >
+          About me
+        </li>
+      </ul>
     </nav>
-    <section class="m-0 p-2 h-screen w-screen flex items-center justify-center flex-col">
-        <div class="flex flex-col gap-y-1">
-            <div class="text-6xl font-bold text-tea_green-500 text-violet-200">
-                Yash Kumar
-            </div>
-            <div class="text-lg font-semibold text-tea_green-400 text-violet-300">
-                Software Developer
-            </div>
-            <div class="font-light text-green-200">
-                I write scalable fullstack solutions, with the spiciness of low level programming.
-            </div>
-            <div>
-                <ul class="flex gap-x-3 p-2 justify-center items-center w-fit">
-                    <li><a href=""><img src="./icons/codeforces.svg" alt="codeforces" class="w-[30px]"></a></li>
-                    <li><a href=""><img src="./icons/email.svg" alt="email" class="w-[30px]"></a></li>
-                    <li><a href=""><img src="./icons/github.svg" alt="github" class="w-[30px]"></a></li>
-                    <li><a href=""><img src="./icons/linkedin.svg" alt="linkedin" class="w-[30px]"></a></li>
-                    <li><a href=""><img src="./icons/twitter.svg" alt="twitter" class="w-[30px]"></a></li>
-                    <li><a href=""><img src="./icons/leetcode.svg" alt="leetcode" class="w-[30px]"></a></li>
-                </ul>
-                <span>
-                    <a href="./something/index.html">Something</a>
-                     add a scenery at the back, that does a little parallax. Or add some threejs things for mouse, or on scroll, particles. Something simple and light.
-                </span>
-            </div>
+    <section
+      class="m-0 p-2 h-screen z-10 w-screen flex items-center justify-center flex-col"
+    >
+      <div class="flex flex-col gap-y-1">
+        <div class="text-6xl font-bold text-tea_green-500 text-violet-200">
+          Yash Kumar
         </div>
-        <script>
-            console.log("Hello world")
-            
-        </script>
+        <div class="text-lg font-semibold text-tea_green-400 text-violet-300">
+          Software Developer
+        </div>
+        <div class="text-green-100">
+          I write scalable fullstack solutions, with the spiciness of low level
+          programming.
+        </div>
+        <a href="">Resume</a>
+        <div>
+          <ul class="flex gap-x-4 p-2 justify-center items-center w-fit">
+            <li>
+              <a href=""
+              class="target"
+                ><img
+                  src="./icons/codeforces.svg"
+                  alt="codeforces"
+                  class="w-[30px]"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+              class="target"
+                ><img src="./icons/email.svg" alt="email" class="w-[30px]"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+              class="target"
+                ><img src="./icons/github.svg" alt="github" class="w-[30px]"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+              class="target"
+                ><img
+                  src="./icons/linkedin.svg"
+                  alt="linkedin"
+                  class="w-[30px]"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+              class="target"
+                ><img src="./icons/twitter.svg" alt="twitter" class="w-[30px]"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+              class="target"
+                ><img
+                  src="./icons/leetcode.svg"
+                  alt="leetcode"
+                  class="w-[30px]"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-</body>
+    <div id="particles-container" class="-z-10"></div>
+    <div class="cursor rounded"></div>
+    <div class="cursor pointed"><div>
+    <section class="h-screen w-screen p-3 overflow-hidden flex justify-center items-center flex-col">
+      <div class="text-violet-200 text-center text-4xl font-semibold">
+        Projects
+      </div>
+      <div class="text-green-200 text-xl my-2">
+          Project gallery
+        </div>
+        
+        <div class=" md:w-[90%] lg:w-[80%] flex flex-col sm:flex-row xl:w-[75%] w-screen h-[80%]  rounded-xl">
+          <div class="w-full h-full grid grid-cols-3 gap-2 grid-rows-3 text-violet-200 ">
+                <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 border-[0.1px] border-slate-600 rounded-xl z-10 flex-col p-2 flex justify-center items-center">
+                    <h2 class="text-xl font-semibold">
+                        Project name
+                    </h2>
+                    <div class="">
+                        some icons of the tech stack used, with their respetive links
+                    </div>
+                    <div>
+                        basic goal of the project: Lorem ipsum dolor sit amet.
+                    </div>
+                    <img src="./images/trial.webp" alt="" class="w-[50%]">
+                    <div>
+                        Deployment or build: Link to it
+                    </div>
+                </div>
+                <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 border-[0.1px] border-slate-600 rounded-xl z-10 flex p-2 col-span-2 px-10 items-center ">
+                    <span class="flex flex-col justify-center gap-1">
+                        <h2 class="text-xl font-semibold">
+                        Project name 2
+                    </h2>
+                    <div class="">
+                        some icons of the tech stack used, with their respetive links
+                    </div>
+                    <div>
+                        basic goal of the project: Lorem ipsum dolor sit amet.
+                    </div>
+                    <div>
+                        Now some more details can be added here, Lorem ipsum dolor sit,
+                    </div>
+                    <div>
+                        Deployment or build: Link to it
+                    </div>
+                    </span>
+                    <img src="./images/trial.webp" alt="" class="h-[80%]">
+                </div>
+          </div>
+          
+      </div>
+    </section>
+    <ul>
+        <li>Make a bento gallery, which is responsible</li>
+        <li>make it able to take more than the content it is suitable for, and have a carousel, to slide through</li>
+        <li>make the cards and everything look professional, just like the ones at vercel</li>
+        <li>add a custom cursor behind the glassmorphism of the cards.</li>
+        <li>The border shining effect, with that cursor hover.</li>
+    </ul>
+    <section class="h-screen w-screen p-3">
+      <div class="text-violet-200 text-center text-4xl font-semibold">
+        Experience
+      </div>
+      plan
+      <div>
+        Add simple scroll in and scroll out animations using GSAP
+      </div>
+    </section>
+    <section class="h-screen w-screen p-3">
+      <div class="text-violet-200 text-center text-4xl font-semibold">
+        About me
+      </div>
+        education, skills, tech stack, and achievements go here.
+      <ul>
+        plan
+        <li>Add a 3D model, at top right, or middle right, and keep it rotating, with the scrolling of this section</li>
+      </ul>
+      <div class="tilt h-[30vh] w-[30vw] bg-white" data-tilt >
+        feiawongoe
+      </div>
+    </section>
+    <div class="cursor-outline"></div>
+    <div class="cursor-dot"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
