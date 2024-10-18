@@ -4,13 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-        nfkawoengo
-        <div class="bg-red-400">hello</div>
-            <h1 class="text-3xl font-bold underline">
-              Hello world!
-            </h1>
+<body class="bg-slate-800">
+    <nav class="w-full fixed left-0 top-0 text-green-100 mt-2 flex p-1 justify-center items-center rounded-xl">
+        <ul class="flex bg-gray-400 gap-8 rounded-full px-6 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.1px] border-periwinkle-400 p-3">
+            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">Home</li>
+            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">Projects</li>
+            <li class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold">About me</li>
+        </ul>
+    </nav>
+    <section class="m-0 p-2 h-screen w-screen flex items-center justify-center flex-col">
+        <div class="flex flex-col gap-y-1">
+            <div class="text-6xl font-bold text-tea_green-500 text-violet-200">
+                Yash Kumar
+            </div>
+            <div class="text-lg font-semibold text-tea_green-400 text-violet-300">
+                Software Developer
+            </div>
+            <div class="font-light text-green-200">
+                I write scalable fullstack solutions, with the spiciness of low level programming.
+            </div>
+            <div>
+                <ul class="flex gap-x-3 p-2 justify-center items-center w-fit">
+                    <li><a href=""><img src="./icons/codeforces.svg" alt="codeforces" class="w-[30px]"></a></li>
+                    <li><a href=""><img src="./icons/email.svg" alt="email" class="w-[30px]"></a></li>
+                    <li><a href=""><img src="./icons/github.svg" alt="github" class="w-[30px]"></a></li>
+                    <li><a href=""><img src="./icons/linkedin.svg" alt="linkedin" class="w-[30px]"></a></li>
+                    <li><a href=""><img src="./icons/twitter.svg" alt="twitter" class="w-[30px]"></a></li>
+                    <li><a href=""><img src="./icons/leetcode.svg" alt="leetcode" class="w-[30px]"></a></li>
+                </ul>
+                <span>
+                    <a href="./something/index.html">Something</a>
+                     add a scenery at the back, that does a little parallax. Or add some threejs things for mouse, or on scroll, particles. Something simple and light.
+                </span>
+            </div>
+        </div>
+        <script>
+            console.log("Hello world")
+            
+        </script>
+    </section>
 </body>
 </html>

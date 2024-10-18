@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/ff5964-a5f8d3-373f51-b7c0ee-cbf3d2 */
+
+- Tailwind
+
+{ 'bright_pink_(crayola)': { DEFAULT: '#ff5964', 100: '#440005', 200: '#890009', 300: '#cd000e', 400: '#ff1222', 500: '#ff5964', 600: '#ff7881', 700: '#ff9aa1', 800: '#ffbcc0', 900: '#ffdde0' }, 'aquamarine': { DEFAULT: '#a5f8d3', 100: '#064d2d', 200: '#0c9a5a', 300: '#11e787', 400: '#58f2ad', 500: '#a5f8d3', 600: '#b7fadc', 700: '#c9fbe4', 800: '#dbfced', 900: '#edfef6' }, 'charcoal': { DEFAULT: '#373f51', 100: '#0b0d10', 200: '#161921', 300: '#212631', 400: '#2d3342', 500: '#373f51', 600: '#56627e', 700: '#7a87a5', 800: '#a6afc3', 900: '#d3d7e1' }, 'periwinkle': { DEFAULT: '#b7c0ee', 100: '#101945', 200: '#203289', 300: '#304bce', 400: '#7486de', 500: '#b7c0ee', 600: '#c7cef2', 700: '#d5daf5', 800: '#e3e6f8', 900: '#f1f3fc' }, 'tea_green': { DEFAULT: '#cbf3d2', 100: '#11481b', 200: '#229036', 300: '#3ad155', 400: '#81e293', 500: '#cbf3d2', 600: '#d4f5da', 700: '#dff7e3', 800: '#eafaed', 900: '#f4fcf6' } }
+
+- CSV
+
+ff5964,a5f8d3,373f51,b7c0ee,cbf3d2
+
+- With #
+
+#ff5964, #a5f8d3, #373f51, #b7c0ee, #cbf3d2
+
+- Array
+
+["ff5964","a5f8d3","373f51","b7c0ee","cbf3d2"]
+
+- Object
+
+{"Bright pink (Crayola)":"ff5964","Aquamarine":"a5f8d3","Charcoal":"373f51","Periwinkle":"b7c0ee","Tea green":"cbf3d2"}
+
+- Extended Array
+
+[{"name":"Bright pink (Crayola)","hex":"ff5964","rgb":[255,89,100],"cmyk":[0,65,61,0],"hsb":[356,65,100],"hsl":[356,100,67],"lab":[61,64,29]},{"name":"Aquamarine","hex":"a5f8d3","rgb":[165,248,211],"cmyk":[33,0,15,3],"hsb":[153,33,97],"hsl":[153,86,81],"lab":[92,-33,10]},{"name":"Charcoal","hex":"373f51","rgb":[55,63,81],"cmyk":[32,22,0,68],"hsb":[222,32,32],"hsl":[222,19,27],"lab":[27,2,-12]},{"name":"Periwinkle","hex":"b7c0ee","rgb":[183,192,238],"cmyk":[23,19,0,7],"hsb":[230,23,93],"hsl":[230,62,83],"lab":[78,7,-24]},{"name":"Tea green","hex":"cbf3d2","rgb":[203,243,210],"cmyk":[16,0,14,5],"hsb":[131,16,95],"hsl":[131,62,87],"lab":[92,-19,12]}]
+
+- XML
+
+<palette>
+  <color name="Bright pink (Crayola)" hex="ff5964" r="255" g="89" b="100" />
+  <color name="Aquamarine" hex="a5f8d3" r="165" g="248" b="211" />
+  <color name="Charcoal" hex="373f51" r="55" g="63" b="81" />
+  <color name="Periwinkle" hex="b7c0ee" r="183" g="192" b="238" />
+  <color name="Tea green" hex="cbf3d2" r="203" g="243" b="210" />
+</palette>
