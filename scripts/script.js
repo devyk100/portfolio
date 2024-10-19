@@ -144,3 +144,17 @@ targets.forEach((target) => {
 
 document.addEventListener("mousedown", () => scaleAnim.play());
 document.addEventListener("mouseup", () => scaleAnim.reverse());
+gsap.registerPlugin(ScrollTrigger);
+
+ gsap.to("#projectnamediv", {
+      opacity: 1, 
+      duration: 1.5, 
+      delay: 0.5,  
+      scrollTrigger: {
+        trigger: "#projectnamediv", 
+        start: "top 50%",           
+        end: "top 30%",       
+        scrub: true,    
+        toggleActions: "play none none none", 
+      }
+});

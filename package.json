@@ -17,6 +17,7 @@
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
+    "swiper": "^11.1.14",
     "vite": "^5.4.9"
   }
 }

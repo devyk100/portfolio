@@ -12,39 +12,39 @@
   <body class="bg-slate-800 w-screen overflow-x-hidden select-none">
     
     <nav
-      class="w-full fixed left-0 top-0 text-green-100 mt-2 flex p-1 justify-center items-center rounded-xl z-50"
+      class="w-full fixed left-0 top-0 text-green-200 mt-2 flex p-1 justify-center items-center rounded-xl z-50"
     >
       <ul
-        class="flex bg-gray-400 gap-8 rounded-full px-6 items-center bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-[0.1px] border-periwinkle-400 p-3 z-50" id="navul"
+        class="flex bg-blue-900 gap-8 rounded-xl px-6 items-center bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border-[0.1px] border-slate-600 p-5 z-50" id="navul"
       >
         <li
-          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 text-sm"
           id="homeNav"
         >
           Home
         </li>
         <li
-          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 text-sm"
           id="projectNav"
         >
           Projects
         </li>
         <li
-          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 text-sm"
           id="experienceNav"
         >
           Experience
         </li>
         <li
-          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 font-semibold"
+          class="hover:cursor-pointer hover:text-violet-400 transition-all duration-500 text-sm"
           id="aboutNav"
         >
-          About me
+          About
         </li>
       </ul>
     </nav>
     <section
-      class="m-0 p-2 h-screen z-10 w-screen flex items-center justify-center flex-col"
+      class="m-0 p-2 h-[65vh] z-10 w-screen flex items-center justify-center flex-col"
     >
       <div class="flex flex-col gap-y-1">
         <div class="text-6xl font-bold text-tea_green-500 text-violet-200">
@@ -112,52 +112,153 @@
     <div id="particles-container" class="-z-10"></div>
     <div class="cursor rounded"></div>
     <div class="cursor pointed"><div>
-    <section class="h-screen w-screen p-3 overflow-hidden flex justify-center items-center flex-col">
-      <div class="text-violet-200 text-center text-4xl font-semibold">
-        Projects
+    <section class=" w-screen p-3 overflow-hidden flex justify-center items-center flex-col">
+      <div id="projectnamediv">
+          <div class="text-violet-200 text-center text-4xl font-semibold">
+            Projects
+          </div>
+          <div class="text-green-200 text-xl my-2">
+            Project gallery
+          </div>
       </div>
-      <div class="text-green-200 text-xl my-2">
-          Project gallery
+        
+        <div class=" md:w-[80vw] lg:w-[70vw] flex flex-col h-[150vh] sm:flex-row xl:w-[65vq] w-screen  rounded-xl ">
+          <div class="w-full h-full grid md:grid-cols-6 gap-7 md:grid-rows-6 text-violet-200 grid-cols-1 grid-rows-7">
+            
+      
+      
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex p-5 justify-center items-center md:col-span-4 md:row-span-2 hover:translate-x-1 transition-all duration-500 cursor-pointer">
+          <div class="flex flex-col h-full p-2 w-full justify-center gap-2 gap-y-3">
+            <h2 class="text-2xl font-bold text-white">
+              It should conclude in 6 words
+            </h2>
+            <div class="text-lg">
+              A good 3 liner description at max should do the job. Anyway this is just trash testing. This one more sentence should be enough to test.
+            </div>
+            <div>
+              <div class="flex">
+                <span class="border border-white/[.2] rounded-full black-gradient lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
+                  <img src="./icons/tailwind.svg" alt="" class="h-[35px] w-[35px]  p-[2px]">
+                </span>
+                <span class="border border-white/[.2] rounded-full black-gradient lg:w-10 -translate-x-1 lg:h-10 w-8 h-8 flex justify-center items-center">
+                  <img src="./icons/go.svg" alt="" class="h-[35px] w-[35px]  p-[2px]">
+                </span>
+                <span class="border border-white/[.2] rounded-full black-gradient lg:w-10 lg:h-10 w-8 h-8 -translate-x-1 flex justify-center items-center">
+                  <img src="./icons/react.svg" alt="" class="h-[35px] w-[35px]  p-[2px]">
+                </span>
+              </div>
+            </div>
+            <div class="flex items-center gap-1 cursor-pointer">
+                <span class="text-xl flex items-center font-semibold underline cursor-pointer">
+                  Check live deployment
+                </span>
+                <span class="flex w-8 h-8 lg:w-10 lg:h-10">
+                  <img src="./icons/arrow-up-right.svg" alt="">
+                </span>
+            </div>
+          </div>
+          <img src="./images/nanami.webp" alt="" class="w-[50%] rounded-3xl">
         </div>
         
-        <div class=" md:w-[90%] lg:w-[80%] flex flex-col sm:flex-row xl:w-[75%] w-screen h-[80%]  rounded-xl">
-          <div class="w-full h-full grid grid-cols-3 gap-2 grid-rows-3 text-violet-200 ">
-                <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 border-[0.1px] border-slate-600 rounded-xl z-10 flex-col p-2 flex justify-center items-center">
-                    <h2 class="text-xl font-semibold">
-                        Project name
-                    </h2>
-                    <div class="">
-                        some icons of the tech stack used, with their respetive links
-                    </div>
-                    <div>
-                        basic goal of the project: Lorem ipsum dolor sit amet.
-                    </div>
-                    <img src="./images/trial.webp" alt="" class="w-[50%]">
-                    <div>
-                        Deployment or build: Link to it
-                    </div>
-                </div>
-                <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 border-[0.1px] border-slate-600 rounded-xl z-10 flex p-2 col-span-2 px-10 items-center ">
-                    <span class="flex flex-col justify-center gap-1">
-                        <h2 class="text-xl font-semibold">
-                        Project name 2
-                    </h2>
-                    <div class="">
-                        some icons of the tech stack used, with their respetive links
-                    </div>
-                    <div>
-                        basic goal of the project: Lorem ipsum dolor sit amet.
-                    </div>
-                    <div>
-                        Now some more details can be added here, Lorem ipsum dolor sit,
-                    </div>
-                    <div>
-                        Deployment or build: Link to it
-                    </div>
-                    </span>
-                    <img src="./images/trial.webp" alt="" class="h-[80%]">
-                </div>
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-2 md:row-span-2 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
           </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+
+        
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-2 md:row-span-3 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
+          </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-4 md:row-span-1 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
+          </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-4 md:row-span-2 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
+          </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-3 md:row-span-2 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
+          </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+
+        <div class="w-full h-full target bg-slate-700 m-2 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border-[0.1px] border-slate-600 rounded-3xl z-10 flex-col p-2 flex justify-center items-center md:col-span-3 md:row-span-2 hover:translate-x-1 transition-all duration-500">
+          <h2 class="text-xl font-semibold">
+              Project name
+          </h2>
+          <div class="">
+              some icons of the tech stack used, with their respetive links
+          </div>
+          <div>
+              basic goal of the project: Lorem ipsum dolor sit amet.
+          </div>
+          <img src="./images/trial.webp" alt="" class="w-[50%]">
+          <div>
+              Deployment or build: Link to it
+          </div>
+        </div>
+
+
+          </div>
+          
           
       </div>
     </section>
@@ -192,8 +293,9 @@
     </section>
     <div class="cursor-outline"></div>
     <div class="cursor-dot"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="./scripts/script.js" type="module"></script>
   </body>
 </html>
